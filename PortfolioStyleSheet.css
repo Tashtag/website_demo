@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat");
 @import url("https://fonts.googleapis.com/css?family=Arvo");
 header, footer{
-	background-color: rgb(190,114, 247);
-	color: purple;
+	background-color: #033d56;
+	color: f67ada;
 	text-align: center;
 	font-size: 1.1rem;
 }
@@ -11,14 +11,14 @@ header a, header i{
 	padding: 1rem 2rem 1rem 2rem;
 }
 header a:hover, header i:hover{
-	background-color: rgb(233, 213, 249);
+	background-color: #045071;
 	color: white;
 }
 
 h1{
 	text-align: center;
 	text-decoration-line: underline;
-	text-decoration-color: purple;
+	text-decoration-color: #033d56;
 	font-family: "Sofia", sans-serif;
 }
 h2, h3{
@@ -27,53 +27,6 @@ h2, h3{
 	
 }
 body {
-	background-color: rgb(221, 188,247);
+	background-color: #ebb2f2;
 	font-family: "Arvo", sans-serif;
-}
-img {
-	width: 100%;
-	/* i feel px is an appropriate unit here */
-	border: 1px solid purple;
-}
-img.transparentImg, img.row {
-	border: none;
-}
-img.notOC{
-	border: 2px solid rgb(194, 220, 242);
-}
-
-article {
-	font-size: 1.2rem;
-	padding: 0.5rem 0.8rem 1rem 0.8rem;
-	border: 1px solid grey;
-	background-color: white;
-	margin-bottom: 1.2rem;
-}
-* {
-  box-sizing: border-box;
-}
-.column {
-	float: left;
-	padding: 0.5rem;
-}
-.left {
-  width: 50%;
-}
-.right {
-  width: 50%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.padded{
-  margin: 0.2rem 0rem 0.2rem 0rem;
-}
-.centered {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
